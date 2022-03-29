@@ -1,0 +1,328 @@
+@charset "utf8";
+
+body,h1,h2,h3,h4,ul,li,p{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    border: none;
+}
+
+main{
+    background-color: #f9f5e8;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+
+    list-style-type: none;
+    text-align: center;
+    background-color: #74530d;
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: bold;
+    width: calc(100% / 4);
+    padding: 20px; 
+}
+
+h1{
+    position: relative;
+}
+
+h2{
+    position: absolute;
+    color: #482c0e;
+    top: 300px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.concept-main{
+    position: relative;
+    margin-top: 100px;
+    color: #482c0e;
+}
+
+.pan1{
+    position: absolute;
+    left: 150px;
+    width: 25%;
+    height: auto;
+    top: -25px;
+}
+
+.pan2{
+    position: absolute;
+    right: 200px;
+    width: 30%;
+    height: auto;
+    top: 300px;
+}
+
+.concept{
+    position: relative;
+    left: 335px;
+    justify-content: center;
+    width: 50%;
+    height: 500px;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #482c0e;/*文字色*/
+    background: #FFF;
+    border: dashed 2px #482c0e;/*点線*/
+    border-radius: 10px;/*角の丸み*/
+    text-align: center;
+}
+
+.concept-p{
+    margin-top: 30px;
+    font-weight: bold;
+    color: #482c0e;
+    font-size: 1.5rem;
+
+}
+
+h3{
+    color: #482c0e;
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px ;
+}
+
+h4{
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 20px ;
+
+}
+
+.menu{
+    position: relative;
+    background-color: #d4c5a0;
+    margin-top: 200px;
+    height: 800px;
+
+}
+.menu-2{
+    position: absolute;
+    color: #482c0e;
+    text-align: center;
+    font-size: 3rem;
+    padding: 200px ;
+    margin-top: -100px;
+    left: 300px;
+}
+
+.menu-sub{
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu-sub li{
+
+margin-top: 200px;
+list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+    width: calc(100% / 4);
+    padding: 20px;
+
+}
+
+.menu1{
+    position: absolute;
+    background-color: #e3dbc9;
+    border-radius: 10px;/*角の丸み*/
+
+}
+
+.sub-1{
+    color: #74530d;
+    font-size: 1.5rem;
+    height: 50px;
+  
+}
+.pari{
+    color: #3b240b;
+}
+
+.menu2{
+    position: absolute;
+    background-color: #e3dbc9;
+    border-radius: 10px;/*角の丸み*/
+
+}
+
+.sub-2{
+    color: #74530d;
+    font-size: 1.5rem;
+    height: 50px;
+  
+}
+.shio{
+    color: #3b240b;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.menu3{
+    position: absolute;
+    background-color: #e3dbc9;
+    border-radius: 10px;/*角の丸み*/
+
+}
+
+.sub-3{
+    color: #74530d;
+    font-size: 1.5rem;
+    height: 50px;
+  
+}
+.sugoi{
+    color: #3b240b;
+}
+
+.menu4{
+    position: absolute;
+    background-color: #e3dbc9;
+    border-radius: 10px;/*角の丸み*/
+    margin-top: 20px;
+
+}
+
+.sub-4{
+    color: #74530d;
+    font-size: 1.5rem;
+    height: 50px;
+    top: 10px;
+  
+}
+.gorori{
+    color: #3b240b;
+}
+
+.store{
+    position: relative;
+    margin-top: 100px;
+}
+
+.store-sub{
+    color: #74530d;
+    font-size: 3rem;
+}
+
+.bg3{
+
+    position: relative;
+    margin-top: 50px;
+    opacity: 0.5;
+}
+
+.access{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    top: 250px;
+    left: 500px;
+}
+
+.access_1{
+    padding: 10px;
+    font-size: 3rem;
+    color: #482c0e;
+}
+
+.access_2{
+    padding: 10px;
+    font-size: 2.5rem;
+    color: #74530d;
+}
+
+.access_3{
+    padding: 10px;
+    font-size: 3rem;
+    color: #482c0e;
+}
+
+.access-8{
+
+    padding: 10px;
+    font-size: 2.5rem;
+    color: #74530d;
+
+}
+
+.access_4{
+    padding: 10px;
+    font-size: 3rem;
+    color: #482c0e;
+    
+}
+
+.access_5{
+    
+    padding: 10px;
+    font-size: 2.5rem;
+    color: #74530d;
+
+}
+
+.access_6{
+    padding: 10px;
+    font-size: 3rem;
+    color: #482c0e;
+    
+}
+
+.access_7{
+
+    padding: 10px;
+    font-size: 2.5rem;
+    color: #74530d;
+ 
+
+}
+
+.bread{
+    position: absolute;
+    left: 80px;
+    width: 30%;
+    height: auto;
+    top: 800px;
+}
+
+.tea{
+    position: absolute;
+    right: 10px;
+    width: 40%;
+    height: auto;
+    top: 200px;
+
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
